@@ -24,11 +24,7 @@ def calculate_average(song_result = SONG_RESULT):
     return time_ave
         
 def main():
-    """
-    COMP.CS.100: Price List
-    Creator: Mohsen Haajari
-    Student id number: 150987659
-    """
+
     time_ave = calculate_average()
     print(time_ave)
     
