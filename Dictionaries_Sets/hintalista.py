@@ -13,11 +13,6 @@ PRICES = {
 
 
 def main():
-    """
-    COMP.CS.100: Price List
-    Creator: Mohsen Haajari
-    Student id number: 150987659
-    """
     product_name = input("Enter product name: ")
     product_name = product_name.strip()
     #print(product_name)
