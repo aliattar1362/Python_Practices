@@ -6,12 +6,7 @@ the operations of the remainder operator.
 """     
  
 def bus_table(time):
-    """
-    This is the main function. It asked the amount of
-    numbers in the list, and then asked user to enter
-    the numbers that consist the list. Then it call 
-    input_to_list function to make the list.
-    """
+
     my_list = [630, 1015, 1415, 1620, 1720, 2000]
     replace_list = []
     index = 0
@@ -38,12 +33,7 @@ def bus_table(time):
  
                 
 def main():
-    """
-    This is the main function. It asked the amount of
-    numbers in the list, and then asked user to enter
-    the numbers that consist the list. Then it call 
-    input_to_list function to make the list.
-    """
+
     time = int(input("Enter the time (as an integer): "))
     bus_table(time)
     
