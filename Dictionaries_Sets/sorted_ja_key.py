@@ -9,11 +9,6 @@ PRICES = {"milk": 1.09, "fish": 4.56, "bread": 2.10,
         "bananas": 1.05, "Pepsi": 3.15,  "pizza": 4.15,}
 
 def main():
-    """
-    COMP.CS.100: Price List
-    Creator: Mohsen Haajari
-    Student id number: 150987659
-    """
     my_dic = dict(sorted(PRICES.items(), key=lambda item: item[1]))
     pass
     for keys, value in my_dic.items() :
