@@ -1,17 +1,9 @@
 """
-COMP.CS.100: A Tourist Dictionary
-Creator: Mohsen Haajari
-Student id number: 150987659
 Learning Goals
 I review the basic operations of a dictionary (dict).
 """
 
 def main():
-    """
-    COMP.CS.100: Price List
-    Creator: Mohsen Haajari
-    Student id number: 150987659
-    """
     english_spanish = {"hey": "hola", "thanks": "gracias", "home": "casa"}
     english_spanish = dict(sorted(english_spanish.items()))
     while True:
