@@ -5,11 +5,7 @@ processing errors.
 """
 ############################################################
 def read_input(text):
-    """
-    This function reads the number entered by the user,
-    checks that it is larger than zero, and returns it
-    to the caller of the function.
-    """
+
     invalid_input = True
     
     # Read the input value while it is smaller than or equal to
