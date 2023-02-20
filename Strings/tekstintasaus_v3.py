@@ -11,13 +11,7 @@ out of its seams if you succeed.
 """  
 
 def read_message():
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     print("Enter text rows. Quit by ", end="") 
     print("entering an empty row.")
     text = input("")
@@ -28,26 +22,13 @@ def read_message():
     return new_text
 
 def number_of_charachter():
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     char = input("Enter the number of characters per line: ")
     char = int(char)
     return char
 
 def justify_text(text, char):
-    """
-    This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     #print(type(text))
     #print(text)
     #print("len(text):", len(text))
@@ -108,13 +89,7 @@ def justify_text(text, char):
 
 
 def list_to_str(text):
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     new_text = ""
     for word in text:
         new_text += word + " "
@@ -122,13 +97,6 @@ def list_to_str(text):
         
 
 def main():
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
     
     text = read_message()
     #print(len(text))
