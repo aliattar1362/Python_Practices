@@ -6,11 +6,7 @@ I learn to process information that is stored in a file.
 ############################################################        
         
 def main():
-    """
-    This function reads the number entered by the user,
-    checks that it is larger than zero, and returns it
-    to the caller of the function.
-    """
+
     filename = input("Enter the name of the score file: ")
 
     try:
