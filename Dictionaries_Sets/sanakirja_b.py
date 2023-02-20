@@ -1,17 +1,9 @@
 """
-COMP.CS.100: More Features for the Tourist Dictionary 1
-Creator: Mohsen Haajari
-Student id number: 150987659
 Learning Goals
 Learning to use the string join method.
 """
 
 def main():
-    """
-    COMP.CS.100: Price List
-    Creator: Mohsen Haajari
-    Student id number: 150987659
-    """
     english_spanish = {"hey": "hola", "thanks": "gracias", "home": "casa"}
     english_spanish = dict(sorted(english_spanish.items()))
     print("Dictionary contents:")
