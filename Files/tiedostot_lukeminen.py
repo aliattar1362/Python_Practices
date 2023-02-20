@@ -6,11 +6,7 @@ I learn the details related to processing files.
 ############################################################        
         
 def main():
-    """
-    This function reads the number entered by the user,
-    checks that it is larger than zero, and returns it
-    to the caller of the function.
-    """
+
     filename = input("Enter the name of the file: ")
 
     try:
