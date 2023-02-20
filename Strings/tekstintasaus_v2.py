@@ -11,13 +11,7 @@ out of its seams if you succeed.
 """  
 
 def read_message():
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     print("Enter text rows. Quit by ", end="") 
     print("entering an empty row.")
     text = input("")
@@ -28,26 +22,14 @@ def read_message():
     return new_text
 
 def number_of_charachter():
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     char = input("Enter the number of characters per line: ")
     char = int(char)
     return char
     
 
 def justify_text(text, char):
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     text = text.split()
     index = 1
     total_text = text[0] + " " 
@@ -114,13 +96,7 @@ def justify_text(text, char):
     return my_line, text
 
 def text_box(text):
-    """This function get the text from justify_text() fucntion
-    and convert the text format from list to string. Finally it
-    transfers the text to the justify_text() fucntion for 
-    further processing.
-    :text: list type as input
-    :text: str type for output.
-    """
+
     new_text = ""
     for word in text:
         new_text += word + " "
@@ -130,22 +106,6 @@ def text_box(text):
 
 
 def main():
-    
-    """CHAPTER VIII - CONCERNING THOSE WHO HAVE 
-    OBTAINED A PRINCIPALITY BY WICKEDNESS
-Although a prince may rise from a private station in two ways,
- neither of which can be entirely attributed to fortune 
- or genius, yet it is manifest to me that I must not be 
- silent on them, although one could be more copiously treated 
- when I discuss republics. These methods are when, either by 
- some wicked or nefarious ways, one ascends to the 
- principality, or when by the favour of his fellow-citizens 
- a private person becomes the prince of his country. 
- And speaking of the first method, it will be illustrated 
- by two examples--one ancient, the other modern--and without 
- entering further into the subject, I consider these 
- two examples will suffice those who may be compelled to 
- follow them."""
  
     text = read_message()
     last_text = ""
