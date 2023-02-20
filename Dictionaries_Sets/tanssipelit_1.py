@@ -14,11 +14,7 @@ SONG_RESULT = {"Bubble dancer": 93.4, "The Game": 92.03, "Vertex": 75.3,
                "Pandemonium": 79.31}
 
 def calculate_average(song_result = SONG_RESULT):
-    """
-    COMP.CS.100: Price List
-    Creator: Mohsen Haajari
-    Student id number: 150987659
-    """
+
     song_time = list(song_result.values())
     total_time = 0
     for time in song_time:
