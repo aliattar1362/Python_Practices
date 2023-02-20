@@ -6,11 +6,6 @@ by dict is used for calculation.
 """
 
 def main():
-    """
-    COMP.CS.100: Price List
-    Creator: Mohsen Haajari
-    Student id number: 150987659
-    """
     my_text =""" """
     my_dict = {}
     print("Enter rows of text for word counting. ", end="")
